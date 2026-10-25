@@ -7,13 +7,19 @@ name = "shared-task-box"
 version = "0.1.0"
 description = "共享任务箱：可嵌入现有聊天产品与 coding worker 之间的轻量任务桥"
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.10"
 dependencies = []
 classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
   "Operating System :: OS Independent",
+  "License :: OSI Approved :: MIT License",
 ]
+
+[project.urls]
+Repository = "https://github.com/furong0302-crypto/shared-task-box"
+Issues = "https://github.com/furong0302-crypto/shared-task-box/issues"
 
 [project.scripts]
 shared-task-box = "shared_task_box.cli:main"

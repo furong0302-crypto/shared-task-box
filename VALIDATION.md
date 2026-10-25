@@ -64,12 +64,11 @@ The candidate tests use only temporary/candidate SQLite databases. No host schem
 
 ## Publication state
 
-- No Git repository was initialized in this candidate directory.
-- No remote repository was created.
-- Nothing was pushed.
-- No package was published.
 - Project name finalized as 共享任务箱 / `shared-task-box`.
 - MIT License selected and `LICENSE` added.
+- A public GitHub repository was created only after explicit publication authorization.
+- Reviewed source commits are pushed to the public repository.
+- PyPI has not been published; package-registry publication remains a separate decision.
 
 See `RELEASE_CHECKLIST.md` for the remaining maintainer decisions.
 

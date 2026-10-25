@@ -14,4 +14,4 @@ Public reads redact common credential-like patterns and structured sensitive key
 
 ## Reporting
 
-Before publication, replace this section with the repository maintainer's preferred private vulnerability-reporting contact. Do not put live credentials in issues, logs, examples, or test fixtures.
+Use the repository's **Security** tab and private vulnerability reporting / Security Advisories when available. Do not put live credentials, exploit details, or sensitive reports in public issues, logs, examples, or test fixtures. If private reporting is unavailable, open a minimal public issue asking the maintainer for a private contact without including vulnerability details.

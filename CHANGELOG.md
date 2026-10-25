@@ -14,4 +14,4 @@
 - Finalized project name as 共享任务箱 / `shared-task-box`.
 - Added MIT License.
 
-No remote repository or package release has been created.
+Published as the first public GitHub release candidate for `v0.1.0`; PyPI remains unpublished.

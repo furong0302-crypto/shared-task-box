@@ -1,6 +1,6 @@
 # Pre-release checklist
 
-This candidate is intentionally not published yet.
+GitHub source publication is authorized. PyPI publication remains intentionally separate.
 
 ## Required before a public release
 
@@ -11,17 +11,17 @@ This candidate is intentionally not published yet.
 - [ ] Decide whether claim leases/recovery belong in v1 or remain an embedding-host concern.
 - [ ] Decide whether notification delivery needs a durable outbox; callbacks are currently best-effort.
 - [ ] Decide the supported Python floor and verify it in CI.
-- [ ] Run the privacy scan and a separate repository-history secret scan after Git initialization.
+- [x] Run privacy scan after Git initialization; repository history currently contains only reviewed release commits.
 - [ ] Verify package metadata, classifiers, README rendering, and wheel/sdist contents.
 - [ ] Review dependency/license compatibility if optional adapters gain third-party dependencies.
 - [ ] Re-check nearby projects and wording immediately before publication; do not claim novelty.
-- [ ] Create a remote repository only after explicit authorization.
-- [ ] Publish a package only after explicit authorization.
+- [x] Remote public GitHub repository created after explicit authorization.
+- [x] GitHub Release authorized; PyPI package publication remains separate and is not performed.
 
 ## Candidate checks already completed
 
 - [x] Core has no runtime dependencies outside Python standard library.
 - [x] Candidate is isolated from the host application's source and database.
 - [x] Duplicate event-id, concurrent claim, illegal transitions, cancellation, terminal writes, message cursor, redaction, notification minimization, CLI, and full-loop tests exist.
-- [x] No remote repository was created.
-- [x] No Git push or package publication was performed.
+- [x] Remote repository creation occurred only after explicit publication authorization.
+- [x] Git push is now authorized and performed; PyPI publication has not been performed.

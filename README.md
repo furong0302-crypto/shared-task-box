@@ -196,4 +196,4 @@ Coverage includes duplicate `event_id`, concurrent claiming, illegal transitions
 
 ## Release status
 
-This is a local review candidate only. It has not been pushed to a remote repository and has not been published as a package.
+`v0.1.0` is the first public GitHub release of **共享任务箱**. Source is published at `furong0302-crypto/shared-task-box` under the MIT License. PyPI publication is intentionally separate and has not been performed yet.
